@@ -10,7 +10,7 @@ namespace TestSpiral
 			int a =0, c = 0, s = 0;//a - размер массива, c - номер столбца, s - номер строки
 			int end;//счетчик до конца строки/столбца
 			int ci = 1, si = 1; //ni - множитель для столбцов, mi - множитель для строк
-			while (a < 1)
+			while (a < 1) //запрос размерности у пользователя
 			{
 				Console.WriteLine("Введите размер стороны квадрата и нажмите Enter:");
 				if (!Int32.TryParse(Console.ReadLine(), out a) || a==0)
