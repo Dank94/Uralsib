@@ -69,8 +69,6 @@ namespace TestSpiral
 					}
 				}
 				Console.WriteLine();
-				Console.WriteLine();
-				Console.WriteLine("-----------------------");
 				Console.ReadKey();
 			}
 			
